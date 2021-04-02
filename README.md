@@ -14,7 +14,7 @@ If your scenario does not fit the above case, the estimated price for AWS will n
 
 Additionally, it may be the case that your scenario would require a custom pricing, which is not provided by this calculator.
 
-This calculator has not been optimized for mobile or ultra-wide screen view.**
+**This calculator has not been optimized for mobile or ultra-wide screen view.**
 
 ## Terminology
 Below are explanations for each input of the calculator:
