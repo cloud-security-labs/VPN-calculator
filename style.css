@@ -1,0 +1,101 @@
+.VPNform {
+  background-image: linear-gradient(to bottom right, #38B6FF, #B636E4);
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+.VPNform .error-calc {
+  text-align: center;
+  margin-left: 35%;
+  width: 25%;
+  font-size: 1vw;
+  
+}
+.VPNform div {
+  padding-left: 1.6vw;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+}
+
+.VPNform .results {
+}
+
+.VPNform .calc-title {
+  padding-top: .75vw;
+  padding-bottom: .75vw;
+  font-family: 'Lato', sans-serif;
+  color: #7A7A84;
+  font-weight: bold;
+  font-size: 2vw;
+  background-color: #E6E6E6;
+  margin-top: -1.5vw;
+  margin-left: -1.6vw;
+}
+
+.calc-form-style {
+  background-color: white;
+  padding-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  width: 90%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.VPNform .input-lengths-display {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1vw;
+  padding-left: 0;
+  color: #7A7A84;
+  margin-right: 2.5vw;
+}
+
+.VPNform .input-lengths-display input {
+  padding-right: .1em;
+  padding-left: .1em;
+}
+
+.VPNform .buttons {
+  text-align: center;
+}
+
+.VPNform .buttons button:first-of-type {
+  background-color: #797AF2;
+  border-style: none;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  color: white;
+  font-size: 1em;
+}
+
+.VPNform .buttons button:last-of-type {
+  background-color: rgba(244,244,244,255);
+  border-style: none;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  color: rgba(205,205,205,255);
+  font-size: 1em;
+}
+
+.VPNform .buttons button:first-of-type:hover {
+   background-color: rgba(178,60,229,255);
+   color: white;
+}
+
+.VPNform .buttons button:last-of-type:hover {
+   background-color: rgba(126,126,136,255);
+   color: white;
+}
+
+.VPNform #results {
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  color: #7A7A84;
+}
