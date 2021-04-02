@@ -1,6 +1,12 @@
-# VPN-calculator
+# VPN Calculator
 
 Calculator that computes the estimated cost of a VPN based on the inputed number of users, devices, and remote networks that may be needed. Estimated prices are also provided based on which tier would best suit your company (for example, if you will need more than 1 remote network, the AWS price will be for Accelerated Site-to-Site VPN Connection).
+
+The VPN Calculator currently provides pricing for:
+- AWS
+- Tailscale
+- Twingates
+- Cloudflare
 
 ## Notes
 
