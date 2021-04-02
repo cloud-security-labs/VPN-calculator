@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VPN Calculator</title>
+  <meta charset="UTF-8">
+  <script src="myscripts.js"></script>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+<div class="VPNform">
+  <div class="calc-form-style">
+  <center><div class="calc-title">VPN COST ESTIMATOR</div></center>
+ <input type="textarea" id="error" class="error-calc" disabled style="visibility: hidden; margin-top: 1em; margin-bottom: 0; display: none;"></input><br>
+  <div class="input-lengths-display">
+  <div class="user">
+    <label for="user">Number of Users: </label>
+    <input type="number" id="user" name="user" required></input><br>
+  </div>
+  <div class="devices">
+    <label for="devices">Devices Per User: </label>
+    <input type="number" id="devices" name="devices" required></input><br>
+  </div>
+  <div class="remote">
+    <label for="remote">Number of Remote Networks: </label>
+    <input type="number" id="remote" name="remote" required></input><br>
+  </div>
+  </div>
+
+<div id = "results" style="visibility: hidden; display:none;">
+    <label for="AWS"><strong>*</strong>AWS: </label>
+    <input type="textarea" id="AWS" disabled></input><br>
+
+    <label for="Tailscale">Tailscale: </label>
+    <input type="textarea" id="Tailscale" disabled> <br>
+
+    <label for="Twingates">Twingates:</label>
+    <input type="textarea" id="Twingates" disabled> <br>
+
+    <label for="Cloudflare">Cloudflare:</label>
+    <input type="textarea" id="Cloudflare" disabled></input> <br>
+<div style="margin-left: 0; padding-left: 0; margin-right: 10%; padding-bottom: 0; margin-bottom: 0;"><strong>*Based on 1000 GB transference in, 5000 GB transference out, 22 work days, and an 8-hour work window.</strong></div><br>
+  </div>
+
+  <div class="buttons">
+    <button onclick="estimatesforvpn()">Submit</button>
+    <button onclick="clearvaluesforvpn()">Reset</button><br>
+  </div>
+</div>
+</div>
+</body>
+</html>
